@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52149D5818614CE4001012EA /* mangaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52149D5718614CE4001012EA /* mangaCollectionViewCell.m */; };
 		9F3A18701861435B00C31172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A186F1861435B00C31172 /* Foundation.framework */; };
 		9F3A18721861435B00C31172 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A18711861435B00C31172 /* CoreGraphics.framework */; };
 		9F3A18741861435B00C31172 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A18731861435B00C31172 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52149D5618614CE4001012EA /* mangaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mangaCollectionViewCell.h; sourceTree = "<group>"; };
+		52149D5718614CE4001012EA /* mangaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mangaCollectionViewCell.m; sourceTree = "<group>"; };
 		9F3A186C1861435B00C31172 /* MangaZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3A186F1861435B00C31172 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F3A18711861435B00C31172 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52149D5918614D08001012EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A18871861435B00C31172 /* ViewController.h */,
+				9F3A18881861435B00C31172 /* ViewController.m */,
+				52149D5A18614D2D001012EA /* collectionViewCells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52149D5A18614D2D001012EA /* collectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				52149D5618614CE4001012EA /* mangaCollectionViewCell.h */,
+				52149D5718614CE4001012EA /* mangaCollectionViewCell.m */,
+			);
+			name = collectionViewCells;
+			sourceTree = "<group>";
+		};
 		9F3A18631861435B00C31172 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +140,7 @@
 				9F3A187F1861435B00C31172 /* AppDelegate.m */,
 				9F3A18811861435B00C31172 /* Main_iPhone.storyboard */,
 				9F3A18841861435B00C31172 /* Main_iPad.storyboard */,
-				9F3A18871861435B00C31172 /* ViewController.h */,
-				9F3A18881861435B00C31172 /* ViewController.m */,
+				52149D5918614D08001012EA /* Views */,
 				9F3A188A1861435B00C31172 /* Images.xcassets */,
 				9F3A18761861435B00C31172 /* Supporting Files */,
 			);
@@ -256,6 +277,7 @@
 				9F3A18891861435B00C31172 /* ViewController.m in Sources */,
 				9F3A18801861435B00C31172 /* AppDelegate.m in Sources */,
 				9F3A187C1861435B00C31172 /* main.m in Sources */,
+				52149D5818614CE4001012EA /* mangaCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +496,7 @@
 				9F3A18A31861435B00C31172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3A18A41861435B00C31172 /* Build configuration list for PBXNativeTarget "MangaZooTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +505,7 @@
 				9F3A18A61861435B00C31172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
