@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Manga.h"
+#import "JSONClass.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
