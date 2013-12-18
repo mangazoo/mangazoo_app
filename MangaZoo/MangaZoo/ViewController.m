@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "mangaCollectionViewCell.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -19,6 +20,11 @@
 >>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 
 @property (strong, nonatomic) JSONClass *jsonOBJ;
+=======
+
+@interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@property (weak, nonatomic) IBOutlet UICollectionView *mangaCollectionView;
+>>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 =======
 
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
@@ -52,6 +58,9 @@
     [self.mangaCollectionView setDelegate:self];
     [self.mangaCollectionView setDataSource:self];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
+=======
 >>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 =======
 >>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac

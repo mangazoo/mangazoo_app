@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="nA2-pS-Vbj">
+>>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 =======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="nA2-pS-Vbj">
 >>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
@@ -14,7 +18,11 @@
     <scenes>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!--View Controller-->
+=======
+        <!--View Controller - Library-->
+>>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 =======
         <!--View Controller - Library-->
 >>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
@@ -34,6 +42,7 @@
                         <subviews>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5kg-tk-DNS">
                                 <rect key="frame" x="13" y="91" width="294" height="297"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +52,53 @@
                     </view>
                     <connections>
                         <outlet property="image" destination="5kg-tk-DNS" id="Eg5-BZ-RgE"/>
+=======
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-tx-Min">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="acn-bb-0vS">
+                                    <size key="itemSize" width="151" height="258"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="manga_cell" id="0Ua-ri-WH2" customClass="mangaCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="258"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="151" height="258"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="slv-1b-bZF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="151" height="209"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="manga" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wP7-oo-vpg">
+                                                    <rect key="frame" x="20" y="217" width="111" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <size key="customSize" width="151" height="258"/>
+                                        <connections>
+                                            <outlet property="mangaImageView" destination="slv-1b-bZF" id="4k6-Ez-Te1"/>
+                                            <outlet property="mangaTitleLabel" destination="wP7-oo-vpg" id="jml-3Y-arD"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Library" image="library_icon" id="OKI-vw-GKY"/>
+                    <connections>
+                        <outlet property="mangaCollectionView" destination="bbW-tx-Min" id="kZy-5X-JuB"/>
+>>>>>>> 5388369fdd4b3f371446952947dd5783c7eb80ac
 =======
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-tx-Min">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
